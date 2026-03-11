@@ -1,0 +1,31 @@
+echo "Takshashila University"
+echo "Ongur Tindivanam, Villupuram"
+echo "-----------------------------"
+
+echo "Student Mark List"
+echo "-----------------------------"
+
+echo "Enter enrollment no"
+read enroll
+
+echo "Enter Student name"
+read name
+
+echo "Enter Linux mark"
+read m1
+
+echo "Enter Java mark"
+read m2
+
+echo "Enter SE mark"
+read m3
+
+echo "------------- Report -------------"
+
+total=$((m1 + m2 + m3))
+avg=$((total / 3))
+
+echo "Enrollment No : $enroll"
+echo "Student Name  : $name"
+echo "Total Mark    : $total"
+echo "Average Mark  : $avg"
