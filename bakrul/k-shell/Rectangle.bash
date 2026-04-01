@@ -1,0 +1,11 @@
+echo "Enter the length:"
+read length
+
+echo "Enter the width:"
+read width
+
+area=$((length * width))
+perimeter=$((2 * (length + width)))
+
+echo "Area of the rectangle: $area"
+echo "Perimeter of the rectangle: $perimeter"
